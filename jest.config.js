@@ -6,7 +6,6 @@ module.exports = {
   errorOnDeprecated: true,
   coverageReporters: ["json-summary", "text", "html"],
   testMatch: ["**/__tests__/**/*.ts?(x)", "**/?(*.)+(spec).ts?(x)"],
-  moduleFileExtensions: ["ts", "tsx", "js", "jsx", "json"],
   collectCoverageFrom: ["src/**/*.ts"],
   moduleNameMapper: pathsToModuleNameMapper(compilerOptions.paths, { prefix: "<rootDir>/" }),
 };
